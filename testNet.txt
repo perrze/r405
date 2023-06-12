@@ -1,0 +1,25 @@
+  Proto  Adresse locale         Adresse distante       État
+  TCP    10.1.1.1:15576         47:https               TIME_WAIT
+  TCP    10.1.1.1:15589         104.20.94.59:https     ESTABLISHED
+  TCP    10.1.1.1:26939         relay-6415b348:https   ESTABLISHED
+  TCP    10.1.1.1:26946         162.159.130.234:https  ESTABLISHED
+  TCP    10.1.1.1:26956         neyo:https             ESTABLISHED
+  TCP    10.1.1.1:26970         holonet:https          ESTABLISHED
+  TCP    10.1.1.1:26978         55:https               ESTABLISHED
+  TCP    10.1.1.1:27013         holocom:imaps          ESTABLISHED
+  TCP    10.1.1.1:27014         univ-rennes1:imaps     ESTABLISHED
+  TCP    10.1.1.1:27031         holocom:imaps          ESTABLISHED
+  TCP    10.1.1.1:27060         20.111.1.3:https       ESTABLISHED
+  TCP    10.1.1.1:27117         univ-rennes1:imaps     ESTABLISHED
+  TCP    10.1.1.1:27121         dev1:ssh               ESTABLISHED
+  TCP    10.1.1.1:27153         dev1:ssh               ESTABLISHED
+  TCP    10.1.1.1:27173         fe405ed0-ed00-4a98-94a0-fa8e2913d4e1:https  ESTABLISHED
+  TCP    10.1.1.1:27325         ec2-34-241-115-67:https  ESTABLISHED
+  TCP    10.1.1.1:27402         10.0.0.207:ssh         ESTABLISHED
+  TCP    10.1.1.1:27429         10.0.0.207:ssh         ESTABLISHED
+  TCP    10.1.1.1:27473         10.0.0.207:ssh         ESTABLISHED
+  TCP    10.1.1.1:27479         10.0.0.207:ssh         ESTABLISHED
+  TCP    10.1.1.1:27564         25:https               TIME_WAIT
+  TCP    10.1.1.1:27580         static:https           ESTABLISHED
+  TCP    10.1.1.1:27582         server-52-84-171-113:https  TIME_WAIT
+  TCP    10.1.1.1:27661         104.20.94.59:https     TIME_WAIT
