@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+ 
+{% include 'bootstrap.j2' %} 
+ 
+<body> 
+    <header> 
+        <div class="mt-4 p-5 bg-success text-white rounded"> 
+            <h1>TP 2A - Flask - Exercice 2</h1> 
+        </div> 
+    </header> 
+    <div class="container"> 
+        <div class="my-3 p-3 bg-dark text-white rounded"> 
+            <h1>Recherche dans le fichier data.json 
+            <a href="/change" class="btn btn-danger float-right">Change</a> 
+            </h1> 
+            <p>Choisissez le champ et entrez l'expression recherchée</p> 
+        </div> 
+        <form action="/search" method="post"> 
+            <select name="field" class="form-control"> 
+                <option value="all">*** all fields ***</option> 
+                {% for field in fields %} 
+                <option value="{{ field }}">{{ field }}</option> 
+                {% endfor %} 
+            </select> 
+            <input type="text" class="form-control" name="search"> 
+            <input class="btn btn-danger" type="submit" value="Search"> 
+        </form> 
+        <hr> 
+        <div class="my-3 p-3 bg-dark text-white rounded"> 
+            <h1>Chat</h1> 
+            <p>Entrez le nom d'un personnage de fiction et discutez avec elle/lui...</p> 
+        </div> 
+        <form action="/chat" method="post"> 
+            <input type="text" class="form-control" name="perso"> 
+            <input class="btn btn-danger" type="submit" value="Send"> 
+        </form> 
+</body> 
+ 
+</html> 
+ 

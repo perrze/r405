@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+{% include 'bootstrap.j2' %}
+
+<body>
+    <header>
+        <div class="mt-4 p-5 bg-success text-white rounded">
+            <h1>TP 2A - Flask - Exercice 2</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="my-3 p-3 bg-dark text-white rounded">
+            <h1>Upload un fichier data.json</h1>
+            <p>Choisissez le fichier</p>
+        </div>
+        <form action="/change" enctype="multipart/form-data" method="post">
+            <input type="file" class="form-control" name="file" accept=".json" id="file">
+            <input class="btn btn-success" type="submit" value="Change">
+        </form>
+
+</body>
+
+</html>
